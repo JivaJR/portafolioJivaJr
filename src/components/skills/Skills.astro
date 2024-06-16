@@ -1,0 +1,23 @@
+---
+import Title from "../atoms/Title.astro";
+import SkillsOnTerminal from "./components/skills-on-terminal/skillsOnTerminal.astro";
+import "./skills.css";
+---
+
+<section id="skills">
+	<SkillsOnTerminal />
+	<div class="md:max-w-[40%] flex-1 flex flex-col justify-center gap-4">
+		<Title contenido="Habilidades" />
+		<p>
+			<b>Lenguajes de Programación:</b> JavaScript, TypeScript, HTML, CSS
+			<br />
+			<b>Frameworks:</b> React, Node.js, Next.js
+			<br>
+			<b>Frameworks CSS:</b> Tailwind CSS, Bootstrap <br>
+			<b>Bases de Datos:</b>
+			MySQL, MongoDB 
+			<br>
+			<b>Herramientas: </b>Git, Docker
+		</p>
+	</div>
+</section>
